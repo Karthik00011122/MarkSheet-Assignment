@@ -1,0 +1,81 @@
+.header{
+    max-width: 70%;
+    margin: 160px auto 20%;
+    background-color: rgb(214, 238, 237);
+    background: linear-gradient( to right, #f3edf3 0%, #d1dcd4 20%, #bededb 40%, #bee2df 60%, #deeedb 80%, hsl(295, 19%, 87%) 100% );    
+    box-shadow: 2px 2px 10px rgb(56, 64, 66);
+    padding: 50px;
+    border-radius: 0px;
+    margin: 10mm auto;
+    border:2px solid #000000;
+    padding: 12mm 10mm;
+    position: relative;
+}
+.watermark
+{
+    position: absolute;
+    left: 500%;
+    top: 500%;
+    width: 100%;
+    z-index: -1;
+}
+
+.uni{
+    height: 500%;
+    max-height: 50%;
+    margin-top: -15%;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.uni h2{
+    margin: 0;
+    font-size: 30px; letter-spacing:.0px; color:#0f355f;
+    text-transform: uppercase;
+}
+
+.logo{
+    margin-top: 3%;
+}
+
+.sno{
+    margin-top: -10%;
+}
+
+.photo{
+    margin-left: 85%;
+    margin-top : -20%; 
+}
+
+.tab{
+    margin-top: 8%;
+}
+
+table{
+    border-collapse:collapse;
+    width: 99%;
+}
+
+.signed{
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+.signed h5{
+    margin-right: 6%;
+}
+
+.mysign{
+    text-align: left;
+    margin-top: -8%;
+}
+
+.watermark
+{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 10%;
+	height:20%;
+	z-index: -1;
+}
